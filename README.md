@@ -5,12 +5,12 @@ The R notebook stored in this repository contains the code used to process Affym
 
 In many research fields, RNA sequencing (RNAseq) has become the go-to technology for transcriptome analysis, but microarray chips are at the time of writing still commercially available and are to some extent still used in research. More importantly, the available gene expression databases, such as NCBI's Gene Expression Omnibus ([GEO](https://www.ncbi.nlm.nih.gov/geo/)) store a substantial number of microarray datasets, and to be able to re-use these valuable datasets in future studies, it is crucial to preserve the knowledge about how to process them. This notebook shows one possible way of doing this for data from Affymetrix Yeast Genome 2.0 arrays (.CEL files). Please also consider looking at other guides and tutorials (see reference section below).
 
-The data that is analyzed in this repository has been deposited at GEO accession number [GSE218764](https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE218764). However, the general workflow presented in this Rmarkdown notebook is designed to work with any Affymetrix Yeast Genome 2.0 data.
+The data that is analyzed in this repository has been deposited at GEO accession number [GSE218764](https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE218764). However, the general workflow presented in this R notebook is designed to work with any Affymetrix Yeast Genome 2.0 data.
 
 The code relies on several existing R packages, many of which are bioinformatics packages available via Bioconductor. The key packages used in this analysis are Affy and Limma. Rstudio was used to write the code, and Rmarkdown and Knitr to produce the .html version of the notebook. References to packages and publications are below. If there is anything in this notebook that you found useful, please consider citing the Almeida (2022) paper, but more importantly, please make sure to cite the R packages according to the instructions of the authors of each package. The packages available from Bioconductor typically state their desired way of citation on their Bioconductor page; see for instance examples for [Affy](https://www.bioconductor.org/packages/release/bioc/html/affy.html) and [Limma](https://bioconductor.org/packages/release/bioc/html/limma.html).  
 
 ## References
-The code in this Rmarkdown notebook is the result of reading several publications, manuals, and threads on the Bioconductor forum related to microarray data analysis in R. If you use any of these packages in your own work, please remember to cite them accordingly. <br>
+The code in this R notebook is the result of reading several publications, manuals, and threads on the Bioconductor forum related to microarray data analysis in R. If you use any of these packages in your own work, please remember to cite them accordingly. <br>
 
 **Instructions to cite the different Bioconductor packages can be found on the following pages:**
 
