@@ -492,7 +492,7 @@ tr_df_final <- tr_df_final %>% relocate('hyd9h_vs_sug9h decideTests(global) resu
 tr_df_final <- tr_df_final %>% relocate('hyd17h_vs_sug17h adj.P.value (global)', .after = 'hyd17h_vs_sug17h P.value')
 ```
 
-We shoudl probably also rename the columns with the normalized data to specify that they actually are normalized:
+We should probably also rename the columns with the normalized data to specify that they actually are normalized:
 ```{r,}
 colnames(tr_df_final)[colnames(tr_df_final) == 'CONT.1'] <- 'CONT.1 (RMA norm.)'
 colnames(tr_df_final)[colnames(tr_df_final) == 'CONT.2'] <- 'CONT.2 (RMA norm.)'
