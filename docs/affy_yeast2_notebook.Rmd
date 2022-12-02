@@ -632,8 +632,8 @@ p_venn
 
 Since this diagram was made with ggplot, we can use ggsave to write it to file:
 ```{r,}
-ggsave("C:/Users/Daniel/Dropbox/Work-from-home_folder/Joao microarray/venn.pdf", width = 6, height = 5, units = 'in')
-ggsave("C:/Users/Daniel/Dropbox/Work-from-home_folder/Joao microarray/venn.tiff", width = 6, height = 5, units = 'in')
+ggsave("C:/GSE218764/venn.pdf", width = 6, height = 5, units = 'in')
+ggsave("C:/GSE218764/venn.tiff", width = 6, height = 5, units = 'in')
 
 ```
 
