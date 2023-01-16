@@ -761,7 +761,7 @@ https://cran.r-project.org/web/packages/ggVennDiagram/index.html
 
 **Publications:** 
 
-Almeida, J.R.M., Wiman, M., Heer, D., Brink, D.P., Sauer, U., Hahn-Hägerdal, B., Lidén, G. and Gorwa-Grauslund, M.F. (2022). Physiological and molecular characterization of yeast cultures pre-adapted for fermentation of lignocellulosic hydrolysate. Fermentation. 2023; 9(1):72. https://doi.org/10.3390/fermentation9010072
+Almeida, J.R.M., Wiman, M., Heer, D., Brink, D.P., Sauer, U., Hahn-Hägerdal, B., Lidén, G. and Gorwa-Grauslund, M.F. (2023). Physiological and molecular characterization of yeast cultures pre-adapted for fermentation of lignocellulosic hydrolysate. Fermentation. 2023; 9(1):72. https://doi.org/10.3390/fermentation9010072
 
 Durinck, S., Moreau, Y., Kasprzyk, A., Davis, S., De Moor, B., Brazma, A., & Huber, W. (2005). BioMart and Bioconductor: a powerful link between biological databases and microarray data analysis. *Bioinformatics*, 21(16), 3439-3440.
 
