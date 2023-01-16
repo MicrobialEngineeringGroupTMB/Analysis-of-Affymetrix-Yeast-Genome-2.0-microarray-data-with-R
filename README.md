@@ -1,7 +1,7 @@
 # Analysis of Affymetrix Yeast Genome 2.0 microarray data with R
 
 ## Background
-The R notebook stored in this repository contains the code used to process Affymetrix Yeast Genome 2.0 microarray data for the [Almeida et al (2022)](https://doi.org/10.3390/fermentation9010072) publication titled *Physiological and molecular characterization of yeast cultures pre-adapted for fermentation of lignocellulosic hydrolysate*. The purpose of this repository is three-fold: to archive the code, to contribute to reproducible science, and for the sake of education.  The code is made available as-is and will likely not recieve updates over time. The R notebook is hosted as a GitHub page [here](https://microbialengineeringgrouptmb.github.io/Analysis-of-Affymetrix-Yeast-Genome-2.0-microarray-data-with-R/). 
+The R notebook stored in this repository contains the code used to process Affymetrix Yeast Genome 2.0 microarray data for the [Almeida et al (2023)](https://doi.org/10.3390/fermentation9010072) publication titled *Physiological and molecular characterization of yeast cultures pre-adapted for fermentation of lignocellulosic hydrolysate*. The purpose of this repository is three-fold: to archive the code, to contribute to reproducible science, and for the sake of education.  The code is made available as-is and will likely not recieve updates over time. The R notebook is hosted as a GitHub page [here](https://microbialengineeringgrouptmb.github.io/Analysis-of-Affymetrix-Yeast-Genome-2.0-microarray-data-with-R/). 
 
 In many research fields, RNA sequencing (RNAseq) has become the go-to technology for transcriptome analysis, but microarray chips are at the time of writing still commercially available and are to some extent still used in research. More importantly, the available gene expression databases, such as NCBI's Gene Expression Omnibus ([GEO](https://www.ncbi.nlm.nih.gov/geo/)) store a substantial number of microarray datasets, and to be able to re-use these valuable datasets in future studies, it is crucial to preserve the knowledge about how to process them. This notebook shows one possible way of doing this for data from Affymetrix Yeast Genome 2.0 arrays (.CEL files). Please also consider looking at other guides and tutorials (see reference section below).
 
@@ -38,7 +38,7 @@ https://cran.r-project.org/web/packages/ggVennDiagram/index.html
 
 **Publications:** 
 
-Almeida, J.R.M., Wiman, M., Heer, D., Brink, D.P., Sauer, U., Hahn-Hägerdal, B., Lidén, G. and Gorwa-Grauslund, M.F. (2022). Physiological and molecular characterization of yeast cultures pre-adapted for fermentation of lignocellulosic hydrolysate. Fermentation. 2023; 9(1):72. [https://doi.org/10.3390/fermentation9010072](https://doi.org/10.3390/fermentation9010072)
+Almeida, J.R.M., Wiman, M., Heer, D., Brink, D.P., Sauer, U., Hahn-Hägerdal, B., Lidén, G. and Gorwa-Grauslund, M.F. (2023). Physiological and molecular characterization of yeast cultures pre-adapted for fermentation of lignocellulosic hydrolysate. Fermentation. 2023; 9(1):72. [https://doi.org/10.3390/fermentation9010072](https://doi.org/10.3390/fermentation9010072)
 
 Durinck, S., Moreau, Y., Kasprzyk, A., Davis, S., De Moor, B., Brazma, A., & Huber, W. (2005). BioMart and Bioconductor: a powerful link between biological databases and microarray data analysis. *Bioinformatics*, 21(16), 3439-3440.
 
