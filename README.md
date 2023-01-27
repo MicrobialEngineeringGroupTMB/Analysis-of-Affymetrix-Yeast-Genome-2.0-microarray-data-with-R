@@ -1,5 +1,7 @@
 # Analysis of Affymetrix Yeast Genome 2.0 microarray data with R
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.7576564.svg)](https://doi.org/10.5281/zenodo.7576564)
+
 ## Background
 The R notebook stored in this repository contains the code used to process Affymetrix Yeast Genome 2.0 microarray data for the [Almeida et al (2023)](https://doi.org/10.3390/fermentation9010072) publication titled *Physiological and molecular characterization of yeast cultures pre-adapted for fermentation of lignocellulosic hydrolysate*. The purpose of this repository is three-fold: to archive the code, to contribute to reproducible science, and for the sake of education.  The code is made available as-is and will likely not recieve updates over time. The R notebook is hosted as a GitHub page [here](https://microbialengineeringgrouptmb.github.io/Analysis-of-Affymetrix-Yeast-Genome-2.0-microarray-data-with-R/). 
 
